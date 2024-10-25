@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "C C",
+        "CSC",
+        "CRC"
+    ],
+    "key": {
+        "C": {
+            "item": "minecraft:copper_ingot"
+        },
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "R": {
+            "item": "minecraft:redstone"
+        }
+    },
+    "result": {
+        "id": "minecraft:powered_rail",
+        "count": 6,
+        "components": {
+            "custom_data": {"copper_rail":true,"direction":"north"},
+            "custom_model_data": 1,
+            "item_name": "'Copper Rail'"
+        }
+    }
+}

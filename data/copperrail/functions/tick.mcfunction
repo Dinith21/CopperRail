@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:minecart] at @s if block ~ ~ ~ minecraft:powered_rail[powered=true] run execute if block ~ ~ ~ minecraft:powered_rail{custom_data:{copper_rail:true, direction:"north"}} run function copperrail:direction
